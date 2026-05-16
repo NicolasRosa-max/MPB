@@ -14,3 +14,24 @@ h1{
 .rodape {
     text-align: center;
 }
+#principais_artistas section {
+    margin: 20px auto;
+    background-color: #ffff32;
+    max-width: 300px;
+    border-radius: 10px;
+    padding: 15px;
+    overflow: hidden;
+    text-align: center;
+    max-height: 95px; 
+    transition: max-height 0.4s ease-in-out;
+}
+
+#principais_artistas section:hover {
+    max-height: 400px;
+}
+
+#principais_artistas ul {
+    text-align: left;
+    display: inline-block;
+    margin: 10px 0;
+}
