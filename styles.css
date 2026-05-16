@@ -1,0 +1,37 @@
+#cabecalho {
+    background-color: #46b553;
+    padding: 20px;
+    text-align: center;
+    border-radius: 30px;
+}
+h1{
+    color: #fff;
+    font-size: 36px;
+    margin: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-decoration: underline;
+}
+.rodape {
+    text-align: center;
+}
+#principais_artistas section {
+    margin: 20px auto;
+    background-color: #ffff32;
+    max-width: 300px;
+    border-radius: 10px;
+    padding: 15px;
+    overflow: hidden;
+    text-align: center;
+    max-height: 95px; 
+    transition: max-height 0.4s ease-in-out;
+}
+
+#principais_artistas section:hover {
+    max-height: 400px;
+}
+
+#principais_artistas ul {
+    text-align: left;
+    display: inline-block;
+    margin: 10px 0;
+}
