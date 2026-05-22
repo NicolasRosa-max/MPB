@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
-
+/*tudo sobre oque vai aparecer em todas as paginas (body, cabecalho, h1, rodape etc)*/
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #f0f0f0;
@@ -26,67 +26,60 @@ h1{
 .rodape {
     text-align: center;
 }
-.principais_artistas section {
-    margin: 20px auto;
+
+
+
+
+
+/*tudo que vai aparecer somente na pagina index.html*/
+#principais_artistas section {
+    margin: 25px auto;
     background-color: #ffff32;
     max-width: 300px;
-    border-radius: 10px;
-    padding: 20px;
+    border-radius: 15px;
+    padding: 25px;
     overflow: hidden;
     text-align: center;
-    max-height: 95px; 
-    transition: max-height 0.4s ease-in-out;
+    max-height: 155px;
+    transition: max-height 0.5s ease-in-out;
     border: solid;
     border-color: #aaaa1c;
 }
 
-.principais_artistas section:hover {
-    max-height: 400px;
+#principais_artistas section:hover {
+    max-height: 600px;
 }
 
-.principais_artistas ul {
+#principais_artistas ul {
     text-align: left;
     display: inline-block;
-    margin: 10px 0;
+    margin: 15px 0;
 }
 
-#info_pessoal {
-    color: white;
-    background-color: #334bd2;
-    padding: 10px;
+#principais_instrumentos section {
+    margin: 25px auto;
+    background-color: #ffff32;
+    max-width: 300px;
+    border-radius: 15px;
+    padding: 25px;
+    overflow: hidden;
     text-align: center;
-    border-radius: 25px;
-    
-    margin: 50px;
-} 
-
-.artistas {
-    background-color: #7898dd;
-    text-align: center;
-    border-style: solid;
-    border-width: 5px;
-    border-radius: 50PX 50PX 50PX 50PX;
-    border-color: #4373db;
+    max-height: 190px;
+    transition: max-height 0.5s ease-in-out;
+    border: solid;
+    border-color: #aaaa1c;
 }
 
-.titulo_secundario {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    text-decoration: underline rgb(92, 91, 91);
-    text-align: center;
+#principais_instrumentos section:hover {
+    max-height: 500px;
 }
 
-.artistas img{
-    border-radius: 30px;
+#principais_instrumentos ol {
+    text-align: left;
+    display: inline-block;
+    margin: 15px 0;
 }
 
-.instrumentos {
-    background-color: #eff315;
-    text-align: center;
-    border-style: solid;
-    border-width: 5px;
-    border-radius: 50px;
-    border-color: #ccdf25;
-}
 
 .introducao{
     background-color: #fff;
@@ -122,12 +115,7 @@ h1{
     text-align: justify;
     color: #fff;
 }
-body {
-    font-family: 'Roboto', sans-serif;
-    background-color: #f0f0f0;
-    margin: 0;
-    padding: 20px;
-}
+
 #link_formulario {
     background-color: #ff2a2a;
     border: solid;
@@ -147,6 +135,21 @@ body {
     font-weight: bold;
 }
 
+
+
+
+
+
+/*tudo que vai aparecer somente na pagina formulario.html*/
+#info_pessoal {
+    color: white;
+    background-color: #334bd2;
+    padding: 10px;
+    text-align: center;
+    border-radius: 25px;
+    
+    margin: 50px;
+} 
 .albums_decoracao {
     background-color: #51c165;
     text-align: center;
@@ -156,4 +159,37 @@ body {
     border-color: #83de94;
     display: center;
     margin: 75px;
+}
+
+
+
+
+
+/*tudo que vai aparecer na pagina instrumentos.html e artistas*/
+.artistas {
+    background-color: #7898dd;
+    text-align: center;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 50PX 50PX 50PX 50PX;
+    border-color: #4373db;
+}
+
+.titulo_secundario {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: underline rgb(92, 91, 91);
+    text-align: center;
+}
+
+.artistas img{
+    border-radius: 30px;
+}
+
+.instrumentos {
+    background-color: #eff315;
+    text-align: center;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 50px;
+    border-color: #ccdf25;
 }
