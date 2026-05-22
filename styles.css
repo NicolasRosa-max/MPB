@@ -51,13 +51,13 @@ h1{
 }
 
 #info_pessoal {
-    
+    color: white;
     background-color: #334bd2;
     padding: 10px;
     text-align: center;
     border-radius: 25px;
-    max-width: 500px;
-    margin: auto;
+    
+    margin: 50px;
 } 
 
 .artistas {
@@ -145,4 +145,15 @@ body {
     color: white;
     text-decoration: none;
     font-weight: bold;
+}
+
+.albums_decoracao {
+    background-color: #51c165;
+    text-align: center;
+    border-style: solid;
+    border-width: 7px;
+    border-radius: 50PX 50PX 50PX 50PX;
+    border-color: #83de94;
+    display: center;
+    margin: 75px;
 }
