@@ -134,6 +134,27 @@ h1{
     text-decoration: none;
     font-weight: bold;
 }
+.animacao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.animacao img {
+    display: block;
+    animation: bandeira 5s ease-in-out infinite;
+    border-radius: 30px;
+}
+
+@keyframes bandeira {
+    0% { transform: translateX(-100%) rotate(0deg); }
+    25% { transform: translateX(100%) rotate(5deg); }
+    50% { transform: translateX(100%) rotate(0deg); }
+    75% { transform: translateX(-100%) rotate(-5deg); }
+    100% { transform: translateX(-100%) rotate(0deg); }
+}
+
 
 
 
